@@ -1,7 +1,20 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 0,03px;
 }
 /*HEADER*/
+.link {
+    text-decoration: none;
+}
+.list .link:hover,
+.list .link:focus{
+    list-style: none;
+    }
+.link-list .link:hover,
+.link-list .link:focus 
 .logo {
         font-weight: 700;
         font-size: 26px;
@@ -57,6 +70,20 @@ body {
         background: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        cursor: pointer;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .benefits {
     font-weight: 700;
@@ -106,19 +133,23 @@ body {
     color: #757575;
 }
 /*FOOTER*/
+.color-footer {
+    background: #2F303A;
+}
 .street {
     font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
     color: #FFFFFF;
-   background: #2F303A;
 }
 .contact {
     font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background: #2F303A;
+        color: rgba(255, 255, 255, 0.6);
 }
+ 
+
+
